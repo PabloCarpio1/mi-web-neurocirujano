@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Dr. Neurocirujano – Página profesional</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    color:#222;
+}
+
+header{
+    background:#0b3c5d;
+    color:white;
+    padding:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+section{
+    padding:40px 10%;
+}
+
+h2{
+    color:#0b3c5d;
+}
+
+.servicios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.boton{
+    display:inline-block;
+    background:#0b3c5d;
+    color:white;
+    padding:12px 18px;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+footer{
+    background:#0b3c5d;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dr. Richard Carpio</h1>
+    <p>Médico Neurocirujano</p>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#perfil">Perfil</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#citas">Citas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section id="inicio">
+    <h2>Atención especializada en neurocirugía</h2>
+    <p>
+        Atención médica especializada en enfermedades del cerebro, columna
+        vertebral y sistema nervioso, con un enfoque humano y profesional.
+    </p>
+
+    <a class="boton" href="#citas">Agendar consulta</a>
+</section>
+
+<section id="perfil">
+    <h2>Sobre mí</h2>
+
+    <p>
+        Médico especialista en neurocirugía, enfocado en el diagnóstico,
+        tratamiento y seguimiento de patologías neurológicas y de columna.
+    </p>
+
+    <ul>
+        <li>Consulta neuroquirúrgica especializada</li>
+        <li>Cirugía de columna vertebral</li>
+        <li>Cirugía cerebral</li>
+        <li>Segunda opinión médica</li>
+    </ul>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+
+    <div class="servicios">
+
+        <div class="card">
+            <h3>Consulta neuroquirúrgica</h3>
+            <p>Evaluación clínica especializada de enfermedades neurológicas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cirugía de columna</h3>
+            <p>Tratamiento de hernias discales, estenosis y lesiones de columna.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cirugía cerebral</h3>
+            <p>Manejo quirúrgico de tumores, traumatismos y patologías cerebrales.</p>
+        </div>
+
+        <div class="card">
+            <h3>Segunda opinión</h3>
+            <p>Revisión de diagnósticos y opciones de tratamiento.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="citas">
+    <h2>Agendar cita</h2>
+
+    <p>
+        Haz clic en el botón para reservar tu consulta.
+    </p>
+
+    <a class="boton" href="https://calendly.com/" target="_blank">
+        Reservar ahora
+    </a>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+
+    <p><strong>Teléfono:</strong> 0982451512</p>
+    <p><strong>Email:</strong> rpacarma@gmail.com</p>
+    <p><strong>Ciudad:</strong> Loja – Ecuador</p>
+
+    <a class="boton" href="https://wa.me/593982451512" target="_blank">
+        WhatsApp
+    </a>
+
+    <br><br>
+
+    <iframe
+        src="https://www.google.com/maps/embed"
+        width="100%"
+        height="300"
+        style="border:0;"
+        loading="lazy">
+    </iframe>
+</section>
+
+<footer>
+    <p>
+        La información presentada en este sitio no sustituye una consulta médica presencial.
+    </p>
+</footer>
+
+</body>
+</html>
